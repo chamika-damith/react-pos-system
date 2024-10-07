@@ -1,10 +1,17 @@
 import './App.css';
+import Layout from './Layout';
+import { BrowserRouter as Router} from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-     <h1>hii</h1>
-    </div>
+    <Router>
+      <Layout>
+        <div className="App">
+          
+        </div>
+      </Layout>
+    </Router>
   );
 }
 
