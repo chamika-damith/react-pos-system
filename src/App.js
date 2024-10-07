@@ -4,6 +4,7 @@ import Layout from './Layout';
 import POSPage from './POSPage';
 import CategoriesPage from './CategoriesPage';
 import { Navigate, Route, BrowserRouter as Router, Routes} from 'react-router-dom';
+import StockManagementPage from './StockManagementPage';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/pos" element={<POSPage />} />
             <Route path="/ItemsPage" element={<ItemsPage />} />
             <Route path="/categories" element={<CategoriesPage />} />
+            <Route path="/stock" element={<StockManagementPage />} />
           </Routes>
         </div>
       </Layout>
